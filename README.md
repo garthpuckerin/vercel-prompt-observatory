@@ -65,9 +65,10 @@ Or manually: `type(scope): subject` (e.g. `feat(api): add temperature param`).
 
 ## Environment
 
-| Variable            | Description                       |
-| ------------------- | --------------------------------- |
-| `ANTHROPIC_API_KEY` | Your Anthropic API key (required) |
+| Variable            | Description                                                              |
+| ------------------- | ------------------------------------------------------------------------ |
+| `ANTHROPIC_API_KEY` | Your Anthropic API key (required for production)                         |
+| `MOCK_API`          | In dev, API is mocked by default. Set to `false` to use real Claude API. |
 
 ## License
 
