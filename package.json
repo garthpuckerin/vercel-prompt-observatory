@@ -1,0 +1,72 @@
+{
+  "name": "vercel-prompt-observatory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Developer tool for testing and comparing Claude prompts with latency metrics, token counting, and run versioning",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "docs": "typedoc",
+    "docs:serve": "typedoc && npx serve docs",
+    "api-docs": "next dev",
+    "prepare": "husky",
+    "commit": "cz",
+    "audit": "npm audit",
+    "audit:fix": "npm audit fix",
+    "validate": "npm run lint && npm run format:check && npm run typecheck && npm run test",
+    "quality": "npm run validate && npm run audit"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,md}": [
+      "prettier --write"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@commitlint/cz-commitlint": "^19.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@vitest/coverage-v8": "^2.0.0",
+    "commitizen": "^4.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.0",
+    "jsdom": "^24.1.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.2.0",
+    "@types/swagger-ui-react": "^5.18.0",
+    "swagger-ui-react": "^5.11.0",
+    "typedoc": "^0.26.0",
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0"
+  }
+}
