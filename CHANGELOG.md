@@ -45,5 +45,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Git workflow (main/develop) and branch strategy
 - README, CONTRIBUTING, SECURITY documentation
 
-[Unreleased]: https://github.com/BlurredConcepts/vercel-prompt-observatory/compare/v1.0.0...develop
-[1.0.0]: https://github.com/BlurredConcepts/vercel-prompt-observatory/releases/tag/v1.0.0
+[Unreleased]: https://github.com/garthpuckerin/vercel-prompt-observatory/compare/v1.0.0...develop
+[1.0.0]: https://github.com/garthpuckerin/vercel-prompt-observatory/releases/tag/v1.0.0

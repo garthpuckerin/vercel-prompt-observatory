@@ -70,6 +70,12 @@ Or manually: `type(scope): subject` (e.g. `feat(api): add temperature param`).
 | `ANTHROPIC_API_KEY` | Your Anthropic API key (required for production)                         |
 | `MOCK_API`          | In dev, API is mocked by default. Set to `false` to use real Claude API. |
 
+## Deploy on Vercel
+
+1. [Import the project](https://vercel.com/new) from GitHub
+2. Add `ANTHROPIC_API_KEY` in Project Settings → Environment Variables
+3. Deploy (production uses `main`; previews from PRs)
+
 ## License
 
 MIT
