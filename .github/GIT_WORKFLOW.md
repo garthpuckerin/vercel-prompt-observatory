@@ -30,7 +30,7 @@ develop ──●───●───●───●───●───●─
 
 2. **Develop**: Commit with `npm run commit`, push to your branch
 
-3. **Merge**: Open PR into `develop` (not `main`)
+3. **Merge**: Open PR into `develop` (not `main`). **Required** — direct pushes to `develop` are blocked.
 
 4. **Release**: When ready for production
 
