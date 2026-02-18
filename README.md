@@ -2,6 +2,10 @@
 
 A developer tool for testing and comparing Claude prompts with latency metrics, token counting, and run versioning.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**[Changelog](CHANGELOG.md)** · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md)
+
 ## Features
 
 - **Prompt testing** — Run prompts against Claude Haiku 4.5 or Sonnet 4
@@ -63,9 +67,16 @@ Or manually: `type(scope): subject` (e.g. `feat(api): add temperature param`).
 
 ## Environment
 
-| Variable            | Description                       |
-| ------------------- | --------------------------------- |
-| `ANTHROPIC_API_KEY` | Your Anthropic API key (required) |
+| Variable            | Description                                                              |
+| ------------------- | ------------------------------------------------------------------------ |
+| `ANTHROPIC_API_KEY` | Your Anthropic API key (required for production)                         |
+| `MOCK_API`          | In dev, API is mocked by default. Set to `false` to use real Claude API. |
+
+## Deploy on Vercel
+
+1. [Import the project](https://vercel.com/new) from GitHub
+2. Add `ANTHROPIC_API_KEY` in Project Settings → Environment Variables
+3. Deploy (production uses `main`; previews from PRs)
 
 ## License
 

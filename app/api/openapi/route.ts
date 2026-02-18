@@ -26,7 +26,7 @@ const openApiSpec = {
       post: {
         summary: 'Run a prompt',
         description:
-          'Execute a user prompt against Claude (Haiku or Sonnet) and return the response with token counts and latency metrics.',
+          'Execute a user prompt against Claude (Haiku or Sonnet) and return the response with token counts and latency metrics. In dev mode (NODE_ENV=development), returns mock data unless MOCK_API=false.',
         operationId: 'runPrompt',
         requestBody: {
           required: true,
