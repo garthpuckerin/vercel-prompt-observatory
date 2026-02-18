@@ -70,5 +70,6 @@ develop ──●───●───●───●───●───●─
 
 - `feature/short-description` — e.g. `feature/add-temperature-param`
 - `fix/issue-description` — e.g. `fix/api-key-validation`
+- `test/description` — e.g. `test/improve-coverage`
 - `release/x.y.z` — e.g. `release/1.2.0`
 - `chore/description` — e.g. `chore/update-deps`
