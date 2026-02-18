@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mock API in dev mode — Claude API is mocked by default when `npm run dev`; set `MOCK_API=false` to use real API
 - LICENSE file (MIT)
 - Dependabot config for weekly npm updates
+- API route tests: mock path, success, 4xx, 5xx, system prompt
+- PromptObservatory component tests: render, starter prompts, run, error display
+- vitest.setup.ts for @testing-library/jest-dom
 
 ### Changed
 
