@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Branch protection on `develop` — PRs required, direct pushes blocked
 - Husky hooks updated for v10 compatibility (removed deprecated husky.sh)
 - OpenAPI description notes dev mock behavior
 - Added `*.tsbuildinfo` to `.gitignore`

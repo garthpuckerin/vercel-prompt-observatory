@@ -20,7 +20,7 @@ A developer tool for testing and comparing Claude prompts with latency metrics, 
 # Install
 npm install
 
-# Configure (copy .env.example to .env and add your key)
+# Configure (optional in dev — API is mocked; copy .env.example to .env for real Claude)
 cp .env.example .env
 
 # Run
@@ -31,19 +31,23 @@ Open [http://localhost:3000](http://localhost:3000). API docs at [http://localho
 
 ## Scripts
 
-| Command             | Description                       |
-| ------------------- | --------------------------------- |
-| `npm run dev`       | Start dev server                  |
-| `npm run build`     | Production build                  |
-| `npm run start`     | Start production server           |
-| `npm run lint`      | Run ESLint                        |
-| `npm run format`    | Format with Prettier              |
-| `npm run typecheck` | TypeScript check                  |
-| `npm run test`      | Run tests                         |
-| `npm run docs`      | Generate TypeDoc                  |
-| `npm run commit`    | Commitizen (conventional commits) |
-| `npm run validate`  | Lint + format + typecheck + test  |
-| `npm run quality`   | Validate + audit                  |
+| Command                 | Description                       |
+| ----------------------- | --------------------------------- |
+| `npm run dev`           | Start dev server                  |
+| `npm run build`         | Production build                  |
+| `npm run start`         | Start production server           |
+| `npm run lint`          | Run ESLint                        |
+| `npm run format`        | Format with Prettier              |
+| `npm run typecheck`     | TypeScript check                  |
+| `npm run test`          | Run tests                         |
+| `npm run test:watch`    | Run tests in watch mode           |
+| `npm run test:coverage` | Run tests with coverage           |
+| `npm run docs`          | Generate TypeDoc                  |
+| `npm run commit`        | Commitizen (conventional commits) |
+| `npm run validate`      | Lint + format + typecheck + test  |
+| `npm run quality`       | Validate + audit                  |
+| `npm run lint:fix`      | Run ESLint with auto-fix          |
+| `npm run audit`         | Run npm security audit            |
 
 ## Development Standards
 
