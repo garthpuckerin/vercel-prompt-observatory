@@ -2,6 +2,8 @@
 
 A developer tool for testing and comparing Claude prompts with latency metrics, token counting, and run versioning.
 
+**[Changelog](CHANGELOG.md)** · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md)
+
 ## Features
 
 - **Prompt testing** — Run prompts against Claude Haiku 4.5 or Sonnet 4

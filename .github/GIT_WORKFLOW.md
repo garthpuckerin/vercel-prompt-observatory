@@ -37,7 +37,9 @@ develop ──●───●───●───●───●───●─
    ```bash
    git checkout develop
    git checkout -b release/1.1.0
-   # Bump version, update changelog, fix last-minute bugs
+   # Bump version in package.json
+   # Update CHANGELOG.md: move Unreleased items to new version, add date
+   # Fix last-minute bugs if needed
    git checkout main
    git merge --no-ff release/1.1.0
    git tag v1.1.0

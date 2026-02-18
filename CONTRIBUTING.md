@@ -16,8 +16,9 @@ We use a **main/develop** flow. See [.github/GIT_WORKFLOW.md](.github/GIT_WORKFL
 1. Branch from `develop`: `git checkout -b feature/my-feature`
 2. Make changes, run `npm run validate` before committing
 3. Use `npm run commit` for conventional commits
-4. Push and open a **PR into `develop`** (not `main`)
-5. After review, merge to `develop`; releases merge `develop` → `main`
+4. Update [CHANGELOG.md](../CHANGELOG.md) under `[Unreleased]` for user-facing changes
+5. Push and open a **PR into `develop`** (not `main`)
+6. After review, merge to `develop`; releases merge `develop` → `main`
 
 ## Commit Format
 
@@ -42,6 +43,19 @@ Husky runs on every commit:
 
 - **pre-commit**: lint-staged (Prettier + ESLint) + typecheck
 - **commit-msg**: Commitlint (validates message format)
+
+## Changelog
+
+When making user-facing changes, add an entry to [CHANGELOG.md](CHANGELOG.md) under `[Unreleased]`:
+
+- **Added** — New features
+- **Changed** — Changes in existing functionality
+- **Deprecated** — Soon-to-be removed features
+- **Removed** — Removed features
+- **Fixed** — Bug fixes
+- **Security** — Vulnerability fixes
+
+Use the same categories as [Keep a Changelog](https://keepachangelog.com/).
 
 ## Quality Gates
 
