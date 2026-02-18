@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Mock API in dev mode — Claude API is mocked by default when `npm run dev`; set `MOCK_API=false` to use real API
+- LICENSE file (MIT)
+- Dependabot config for weekly npm updates
+
+### Changed
+
+- Husky hooks updated for v10 compatibility (removed deprecated husky.sh)
+- OpenAPI description notes dev mock behavior
+
 ### Fixed
 
 - Resolved npm audit vulnerabilities (24 → 15)
