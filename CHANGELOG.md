@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-02-18
+
 ### Added
 
 - Mock API in dev mode — Claude API is mocked by default when `npm run dev`; set `MOCK_API=false` to use real API
@@ -46,5 +48,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Git workflow (main/develop) and branch strategy
 - README, CONTRIBUTING, SECURITY documentation
 
-[Unreleased]: https://github.com/garthpuckerin/vercel-prompt-observatory/compare/v1.0.0...develop
+[Unreleased]: https://github.com/garthpuckerin/vercel-prompt-observatory/compare/v1.1.0...develop
+[1.1.0]: https://github.com/garthpuckerin/vercel-prompt-observatory/releases/tag/v1.1.0
 [1.0.0]: https://github.com/garthpuckerin/vercel-prompt-observatory/releases/tag/v1.0.0
