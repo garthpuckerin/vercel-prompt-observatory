@@ -7,13 +7,17 @@
 3. Copy `.env.example` to `.env` and add `ANTHROPIC_API_KEY`
 4. `npm run dev` to verify
 
-## Workflow
+## Git Workflow
 
-1. Create a branch from `main` or `develop`
-2. Make changes
-3. Run `npm run validate` before committing
-4. Use `npm run commit` for conventional commits
-5. Push and open a PR
+We use a **main/develop** flow. See [.github/GIT_WORKFLOW.md](.github/GIT_WORKFLOW.md) for full details.
+
+**Quick flow:**
+
+1. Branch from `develop`: `git checkout -b feature/my-feature`
+2. Make changes, run `npm run validate` before committing
+3. Use `npm run commit` for conventional commits
+4. Push and open a **PR into `develop`** (not `main`)
+5. After review, merge to `develop`; releases merge `develop` → `main`
 
 ## Commit Format
 
