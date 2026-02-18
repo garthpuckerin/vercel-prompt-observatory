@@ -30,7 +30,7 @@ develop ──●───●───●───●───●───●─
 
 2. **Develop**: Commit with `npm run commit`, push to your branch
 
-3. **Merge**: Open PR into `develop` (not `main`)
+3. **Merge**: Open PR into `develop` (not `main`). **Required** — direct pushes to `develop` are blocked.
 
 4. **Release**: When ready for production
 
@@ -70,5 +70,6 @@ develop ──●───●───●───●───●───●─
 
 - `feature/short-description` — e.g. `feature/add-temperature-param`
 - `fix/issue-description` — e.g. `fix/api-key-validation`
+- `test/description` — e.g. `test/improve-coverage`
 - `release/x.y.z` — e.g. `release/1.2.0`
 - `chore/description` — e.g. `chore/update-deps`

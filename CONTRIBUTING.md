@@ -11,14 +11,16 @@
 
 We use a **main/develop** flow. See [.github/GIT_WORKFLOW.md](.github/GIT_WORKFLOW.md) for full details.
 
-**Quick flow:**
+**All changes to `develop` must go through a PR.** Direct pushes are blocked by branch protection.
 
-1. Branch from `develop`: `git checkout -b feature/my-feature`
+**Flow (required):**
+
+1. Branch from `develop`: `git checkout develop && git pull && git checkout -b feature/my-feature`
 2. Make changes, run `npm run validate` before committing
 3. Use `npm run commit` for conventional commits
-4. Update [CHANGELOG.md](../CHANGELOG.md) under `[Unreleased]` for user-facing changes
+4. Update [CHANGELOG.md](CHANGELOG.md) under `[Unreleased]` for user-facing changes
 5. Push and open a **PR into `develop`** (not `main`)
-6. After review, merge to `develop`; releases merge `develop` → `main`
+6. Merge via PR (squash or merge); releases merge `develop` → `main`
 
 ## Commit Format
 
