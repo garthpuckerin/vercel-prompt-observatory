@@ -2,6 +2,8 @@
 
 A developer tool for testing and comparing Claude prompts with latency metrics, token counting, and run versioning.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **[Changelog](CHANGELOG.md)** · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md)
 
 ## Features

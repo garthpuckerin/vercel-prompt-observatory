@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Husky hooks updated for v10 compatibility (removed deprecated husky.sh)
 - OpenAPI description notes dev mock behavior
+- Added `*.tsbuildinfo` to `.gitignore`
 
 ### Fixed
 
@@ -26,11 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - eslint-config-next 14 → 15.5.12
   - commitizen 4.3.0 → 4.3.1
 
-### Changed
-
-- Added `*.tsbuildinfo` to `.gitignore`
-
-## [1.0.0] - 2025-02-18
+## [1.0.0] - 2026-02-18
 
 ### Added
 

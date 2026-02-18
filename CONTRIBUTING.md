@@ -4,7 +4,7 @@
 
 1. Fork and clone
 2. `npm install`
-3. Copy `.env.example` to `.env` and add `ANTHROPIC_API_KEY`
+3. Copy `.env.example` to `.env` (optional in dev — API is mocked by default; add `ANTHROPIC_API_KEY` for real Claude calls)
 4. `npm run dev` to verify
 
 ## Git Workflow
