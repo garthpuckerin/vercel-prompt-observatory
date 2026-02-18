@@ -1,6 +1,6 @@
 {
   "name": "vercel-prompt-observatory",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "Developer tool for testing and comparing Claude prompts with latency metrics, token counting, and run versioning",
   "engines": {
